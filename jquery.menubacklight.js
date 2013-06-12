@@ -2,7 +2,7 @@
  * Плагин подсвечивания пункта меню, соответствующего текущей странице
  * */
 (function ($) {
-	jQuery.fn.broniMenuBacklight = function (options) {
+	jQuery.fn.menuBacklight = function (options) {
 		options = $.extend({
 			activeClass: 'active', // класс текущего элемента
 			elementType: 'li', // тип элемента, которому присваивается класс
